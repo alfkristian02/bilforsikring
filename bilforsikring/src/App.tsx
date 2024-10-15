@@ -30,7 +30,7 @@ function App() {
       )}
 
     <div 
-      className={`border rounded-sm mb-4 cursor-pointer ${carInsurance === car.name ? 'font-primaryBold border-black' : 'font-primaryRegular'}`} // Apply different font if selected
+      className={`w-[450px] border rounded-sm mb-4 cursor-pointer ${carInsurance === car.name ? 'font-primaryBold border-black' : 'font-primaryRegular'}`} // Apply different font if selected
       key={car.name}
       onClick={() => handleChange(car.name)}>
 
