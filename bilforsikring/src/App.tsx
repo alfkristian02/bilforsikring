@@ -78,7 +78,7 @@ function App() {
     <a href="https://github.com/alfkristian02/bilforsikring"><img src="./images/github-mark.png" className="mt-10 ml-10 h-10" /></a>
     <div className="flex m-10"> {/* start of container*/}
       <div className="m-auto">
-        <p className="font-primaryRegular mb-2">Velg dekning</p>
+        <h1 className="font-primaryRegular mb-2">Velg dekning</h1>
         {carOptions}
         <p className="font-primaryRegular">
           <a href="" className="border-b border-black hover:text-gray-700 hover:border-gray-700">Sammenlign dekninger</a>
